@@ -1,0 +1,33 @@
+{
+  "name": "avl",
+  "version": "1.0.0",
+  "description": "Implements AVL tree by javascript in Nodejs",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "eslint src/",
+    "lint-fix" : "eslint src/ --fix",
+    "test": "nyc mocha test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanducvo/AVL-Tree-JS.git"
+  },
+  "keywords": [
+    "AVL tree"
+  ],
+  "author": "Duc Vo Van",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanducvo/AVL-Tree-JS/issues"
+  },
+  "homepage": "https://github.com/vanducvo/AVL-Tree-JS#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "mocha": "^7.1.1",
+    "nyc": "^15.0.0",
+    "sinon": "^9.0.1"
+  }
+}
